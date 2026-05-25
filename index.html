@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M_ICA — Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Las fuentes se cargan desde el @import dentro del CSS.
+         No hace falta repetir el link de Google Fonts aquí. -->
+</head>
+
+<body>
+
+    <!-- CABECERA: fondo verde neón + logo en esquina -->
+    <header class="header-portfolio">
+        <span class="logo">M_ICA</span>
+        <!-- .logo → posicionado absolute en esquina sup. izquierda -->
+        <p class="nombre">Portfolio</p>
+        <p class="subtitulo-header">Diseño Gráfico — Micaela Schindler</p>
+    </header>
+
+    <!-- NAVEGACIÓN: links entre las 3 páginas -->
+    <nav class="nav-portfolio">
+        <!-- nav: etiqueta semántica para menús de navegación -->
+        <a href="index.html" class="activo">Inicio</a>
+        <!-- class="activo" → resalta la página actual en verde -->
+        <a href="segundapagina.html">Sobre mí</a>
+        <a href="tercerapagina.html">Contacto</a>
+    </nav>
+
+
+    <!-- CONTENEDOR PRINCIPAL: 80% ancho, centrado, margen 20px, padding 15px -->
+    <div class="contenedor">
+
+        <h1>Hola, soy Micaela</h1>
+        <!-- h1: Josefin Sans, verde neón, con línea blanca ::after -->
+
+        <p>
+            Soy egresada de la <strong>Tecnicatura en Diseño Gráfico</strong>.
+            Este portfolio muestra mis proyectos, exploración tipográfica
+            y lo que voy aprendiendo sobre diseño digital.
+        </p>
+
+        <p>
+            Visitá mi blog
+            <a href="https://mischindlerdisenografico.wordpress.com/" target="_blank">M_ICA en WordPress</a>
+            <!-- target="_blank" abre en nueva pestaña -->
+            para ver proyectos y reflexiones sobre diseño gráfico.
+        </p>
+
+        <hr>
+
+        <h2>Recursos de aprendizaje</h2>
+
+        <p>
+            Plataformas que usé para aprender HTML y CSS.
+            Pasá el mouse por los enlaces para ver el efecto <em>hover</em>:
+        </p>
+
+        <p>→ <a href="https://codepen.io" target="_blank">CodePen</a> — Editor visual para practicar código en el navegador.</p>
+        <p>→ <a href="https://www.freecodecamp.org/espanol/" target="_blank">freeCodeCamp en español</a> — Cursos gratuitos con certificados.</p>
+        <p>→ <a href="https://fonts.google.com" target="_blank">Google Fonts</a> — Catálogo de tipografías gratuitas.</p>
+        <p>→ <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">MDN Web Docs CSS</a> — Referencia técnica en español.</p>
+
+    </div><!-- fin .contenedor -->
+
+
+    <footer class="footer-portfolio">
+        &copy; M_ICA &nbsp;·&nbsp; Diseño Gráfico
+        &nbsp;·&nbsp;
+        <a href="https://mischindlerdisenografico.wordpress.com/" target="_blank">Blog</a>
+    </footer>
+
+</body>
+</html>
